@@ -1,0 +1,62 @@
+Q1. Calculate income tax for the given income by adhering to the below rules:
+Taxable Income Rate (%) 
+First 5,00,000 0 
+Second 7,50,000 10 
+Third 10,00,000 20 
+Remaining 30
+Sample Input and output:
+Enter user's salary:2500000
+First 5,00,000 Tax: 0
+
+Q2.Write a code to extract each digit from an integer, in the reverse order
+Expected Output: For example, if the given int is 7536, the output shall be “6 3 5 7“, with a space separating the digits
+
+Q3.Given a list iterate it and display numbers which are divisible by 5 and if you find number greater than 150 stop the loop iteration list1 = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
+Enter the number of elements in the list:11 
+enter the 0th element 12
+enter the 1th element 15
+enter the 2th element 32
+enter the 3th element 42
+enter the 4th element 55
+enter the 5th element 75
+enter the 6th element 122
+enter the 7th element 132
+enter the 8th element 150
+enter the 9th element 180
+enter the 10th element 200
+The elements are: 15 55 75 150
+
+Q4.Count all lower case, upper case, digits, and special symbols from a given string Given: str1 = "P@#yn26at^&i5ve"
+Expected Outcome:
+Total counts of chars, digits,and symbols Chars = 8 Digits = 3 Symbol = 4
+
+Q5.Given a string, return the sum and average of the digits that appear in the string, ignoring all other characters Given:
+str1 = "English = 78 Science = 83 Math = 68 History = 65"
+Expected Outcome:
+sum is 294 average is 73.5
+
+Q6.Given a two list. Create a third list by picking an odd-index element from the first list and even index elements from second.
+For Example:
+listOne = [3, 6, 9, 12, 15, 18, 21] listTwo = [4, 8, 12, 16, 20, 24, 28]
+Expected Output:
+Element at odd-index positions from list one [6, 12, 18]
+Element at even-index positions from list two [4, 12, 20, 28]
+Printing Final third list [6, 12, 18, 4, 12, 20, 28]
+
+Q7.Given a two list of equal size create a set such that it shows the element from both lists in the pair 
+Expected Output:
+First List [2, 3, 4, 5, 6, 7, 8]
+Second List [4, 9, 16, 25, 36, 49, 64]
+Result is {(6, 36), (8, 64), (4, 16), (5, 25), (3, 9), (7, 49), (2, 4)}
+
+Q8.Given a dictionary get all values from the dictionary and add it in a list but don’t add duplicates.
+speed ={'jan':47, 'feb':52, 'march':47, 'April':44, 'May':52, 'June':53, 'july':54, 'Aug':44, 'Sept':54} 
+Expected Outcome: [47, 52, 44, 53, 54]
+
+Q9. Remove duplicate from a list and create a tuple and find the minimum and maximum number. 
+For Example:
+sampleList = [87, 45, 41, 65, 94, 41, 99, 94] 
+Expected Outcome:
+unique items [87, 45, 41, 65, 99] tuple (87, 45, 41, 65, 99) 
+min: 41 
+max: 99
