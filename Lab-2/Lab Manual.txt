@@ -1,0 +1,24 @@
+Q.1]
+Write a program to multiply two matrices of size (100,100) in two methods:
+(a) By using np.dot(mat_1,mat_2)
+(b) By using for loops
+Compare the time of execution in both the cases
+
+Q.2] 
+Write a program to execute the steps below using NumPy:
+ 
+                      Zᵢⱼ = ∑WᵢₖXₖⱼ
+         
+                      σᵢⱼ(Zᵢⱼ) = 1/[1+e^(-Zᵢⱼ)]
+
+where W and X are matrices of random numbers having dimensions (m,n) and (n,k) respectively. 
+σ(Z) is a function which performs above defined operation on elements of Z
+
+Q.3] 
+Create two vectors y and ŷ having same dimensions, where ŷ should consist of random numbers between [0,1] and y should contains 0s and 1s.
+For example: y = [0,1,1,0,1,0,0,1,...,1]
+Compute the given expression:
+
+                  O = -(1/n)*∑[yᵢlog₂(ŷᵢ)+(1-yᵢ)log₂(1-ŷᵢ)]
+
+where n is total number of elements in y and ŷ.
